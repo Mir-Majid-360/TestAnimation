@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    //by MMM for Dancer Match
+
+    <!--    <color name="app_theme_color">#A569EB</color>-->
+
+
+    <color name="purple">#999df8</color>
+    <color name="link_blue">#2196F3</color>
+    <color name="pink">#DB74E4</color>
+    <color name="facebook_btn_bg">#5890FF</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_2">#81C283</color>
+    <color name="golden">#C09207</color>
+
+    <color name="blue">#2196F3</color>
+
+
+    <color name="bg_top_dancer">#E0DFFE</color>
+
+
+    // NEW PROVIDED COLORS
+
+    <color name="splash_bg_color">#F2D5FC</color>
+    <color name="dance_battle_rv_bg_color">#E3E6FD</color>
+    <color name="top_dancer_cover_image_color">#9576eb</color>
+
+    <color name="fragment_background_color">#FFFFFF</color>
+<color name="app_theme_translucent">#2E9489D4</color>
+    <color name="app_label_color">#7D5DDD</color>
+    <color name="app_link_color">#7313AC</color>
+    <color name="app_theme_color">#9489D4</color>
+    <color name="app_theme_disabled_color">#339489D4</color>
+    <color name="app_background_color">#E3E6FC</color>
+    <color name="bg_grey">#E3E2E7</color>
+    <color name="border_grey">#D7D6DB</color>
+    <color name="bg_otp_item_color">#F2F2F2</color>
+
+    <color name="top_dancer_inner_bg_color">#999BF8</color>
+    <color name="lavender">#E0DEFC</color>
+    <color name="powder_blue">#C1CFF1</color>
+    <color name="baby_pink">#F7D4D6</color>
+    <color name="light_green">#D3F3CE</color>
+
+
+    <color name="light_grey">#E3E2E7</color>
+    <color name="outline_color">#D7D6DB</color>
+
+    // my custom colors
+    <color name="icon_color">#93579D</color>
+    <color name="app_black">#000000</color>
+    <color name="app_white">#FFFFFF</color>
+    <color name="dark_white">#F2F1F7</color>
+    <color name="grey">#909090</color>
+    <color name="grey_light">#ECE9E9</color>
+
+
+    <color name="light_purple">#E0DEFC</color>
+    <color name="light_blue">#C1CFF1</color>
+    <color name="light_peach">#F7D4D6</color>
+    <color name="mint_green">#D3F3CE</color>
+    <color name="light_pink">#E9D0EB</color>
+
+</resources>

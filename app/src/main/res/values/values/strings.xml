@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Dancer Match</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //AIzaSyAGaEtkyaBQwBMIsvzvNb4ut6GMt9-hX3o
+    //important strings
+    <string name="default_notification_channel_name" translatable="true">DancerMatch</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">Dancer Match</string>
+    <string name="web_client_id">986636882523-iu7211g4t37um9cs92un5356g0me621j.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1741608656272839</string>
+    <string name="fb_login_protocol_scheme">fb1741608656272839</string>
+    <string name="facebook_client_token">56789</string>
+
+
+    <string name="countdown_format">%1\$s\n%2\$s\n%3\$s</string>
+    <string name="and">and</string>
+    <plurals name="days">
+        <item quantity="one">%1\$d day</item>
+        <item quantity="other">%1\$d days</item>
+    </plurals>
+    <string name="notification_permission_dialog_message">Dancer Match would like to send you notifications.</string>
+
+    //Defined Strings
+    <string name="version">Version</string>
+    <string name="_skip">Skip</string>
+    <string name="browse_through_enthusiasts_and_find_the_right_match_for_you">Browse through enthusiasts and find the right match for you.</string>
+    <string name="login_screen_message">Everyday bring a chance for you to draw in a breath  off your shoes and dance.</string>
+    <string name="add_your_reminders_to_the_top_of_your_inbox">Add your reminders to the top of your inbox</string>
+    <string name="sign_in">Sign in</string>
+    <string name="get_ready_to_showcase_your_skills_in_the_ultimate_dance_challenges">get ready to showcase your skills in the ultimate dance challenges.</string>
+    <string name="signup_privacy_policy_message">By signing up, you agree to our  Terms of Service  and  Privacy Policy .</string>
+    <string name="discover_dancers">Discover Dancers</string>
+    <string name="sign_in_with_facebook">Continue with Facebook</string>
+    <string name="signup_with_phone">Signup with Phone</string>
+    <string name="already_have_an_account_login">Already have an Account? SignIn</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">Enter last name</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="next">Next</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="otp_verification">OTP verification</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="press_back_again_to_exit">Press BACK again to exit.</string>
+    <string name="logout">Logout</string>
+    <string name="logout_message">Are you sure you want to Logout?</string>
+    <string name="cancel">Cancel</string>
+    <string name="allow">Allow</string>
+    <string name="allow_app_notification">Allow app notification</string>
+    <string name="app_notification_message">App notification message</string>
+    <string name="delete">Delete</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="videos">Videos</string>
+    <string name="favourite">Favourite</string>
+    <string name="profile">Profile</string>
+    <string name="challenges">Challenges</string>
+    <string name="uploads">Uploads</string>
+    <string name="name">Name</string>
+    <string name="leaderboard">leaderboard</string>
+    <string name="messages">Messages</string>
+    <string name="rewards">Rewards</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="privacy_and_terms">Privacy &amp; terms</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="feedback">Feedback</string>
+    <string name="dance_battle">Dance Battle</string>
+    <string name="ranking">Ranking</string>
+    <string name="participants">Participants</string>
+    <string name="videos_upload_till">Videos upload Till</string>
+    <string name="voting_details">Voting Details</string>
+    <string name="winners_will_be_announced_on">Winners will be announced on</string>
+    <string name="participants_list">Participants List</string>
+    <string name="join">Join</string>
+    <string name="friends">Friends</string>
+    <string name="everyone">Everyone</string>
+    <string name="daily">Daily</string>
+    <string name="monthly">Monthly</string>
+    <string name="last_date_to_join">Last date to join</string>
+    <string name="announcement_date">Announcement Date</string>
+    <string name="voting_till_date">Voting till Date</string>
+    <string name="view_all">View All</string>
+    <string name="top_dancers">Top Dancers</string>
+    <string name="email">Email</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="professional_details">Professional Details</string>
+    <string name="gender">Gender</string>
+    <string name="dance_specialization">Dance Specialization</string>
+    <string name="save">Save</string>
+    <string name="votes">Votes</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="send">Send</string>
+    <string name="settings">Settings</string>
+    <string name="link">Link</string>
+    <string name="description">Description</string>
+    <string name="basic_details">Basic Details</string>
+    <string name="phone">Phone</string>
+    <string name="edit_dance_specialization">Edit Dance Specialization</string>
+    <string name="sign_up">Sign up</string>
+    <string name="saved">Saved</string>
+    <string name="create_account">Create Account</string>
+    <string name="create">Create</string>
+    <string name="rank">Rank</string>
+    <string name="create_password">Create Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="no_internet_message">Please Connect to the Internet</string>
+    <string name="please_enter_your_password">Please enter your password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login_using_phone">Login using phone</string>
+    <string name="login_using_email">Login using email</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="use_camera">Use Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="vote">Vote</string>
+    <string name="signing_in_please_wait">Signing In Please Wait…</string>
+    <string name="enter_valid_email">Enter valid email.</string>
+    <string name="enter_valid_phone_number">Enter valid phone number</string>
+    <string name="rsend_otp_in">"Resend OTP in : "</string>
+    <string name="top_dancers_list">Top Dancers List</string>
+    <string name="permission_request_denied">Permission request denied</string>
+    <string name="video_should_not_be_more_then_thirty_seconds">Video should not more than  30 seconds</string>
+    <string name="password_should_ab_more_then_eight_chracters">Password should be more than 8 chracters</string>
+    <string name="password_not_matched">Password not matched</string>
+    <string name="success">Success</string>
+    <string name="your_account_has_been_successfully_created_please_verify_your_email">Your account has been successfully created. Please Verify your email.</string>
+    <string name="_continue">Continue</string>
+    <string name="_ok">OK</string>
+    <string name="schedule_challenge">Schedule Challenge</string>
+    <string name="follow">Follow</string>
+    <string name="suggested_users">Suggestions</string>
+    <string name="wins">Wins</string>
+    <string name="name_can_not_be_empty">Name can not be empty</string>
+    <string name="notifications">Notifications</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="challenges_list">Challenges List</string>
+    <string name="allow_notifications">Allow Notifications</string>
+    <string name="chats">Chats</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="are_you_sure_to_exit">Are you sure to exit?</string>
+    <string name="exit">Exit</string>
+
+
+</resources>

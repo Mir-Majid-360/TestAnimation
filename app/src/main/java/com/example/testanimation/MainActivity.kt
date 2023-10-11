@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.animation.AnimationUtils
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
 import com.example.testanimation.databinding.ActivityMainBinding
 
@@ -16,6 +18,9 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.title.setOnClickListener {
+            showDialog()
+        }
 
         var isImageVisible = binding.targetView.isVisible
         binding.ivArrow.setOnClickListener {
@@ -35,6 +40,33 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
+
+
+
+    fun showDialog(){
+        val builder = AlertDialog.Builder(this,R.style.MyCustomTheme)
+        builder.setTitle("Androidly Alert")
+        builder.setMessage("We have a message")
+//builder.setPositiveButton("OK", DialogInterface.OnClickListener(function = x))
+
+        builder.setPositiveButton(R.string.yes) { dialog, which ->
+            Toast.makeText(applicationContext,
+                R.string.yes, Toast.LENGTH_SHORT).show()
+        }
+
+        builder.setNegativeButton(android.R.string.no) { dialog, which ->
+            Toast.makeText(applicationContext,
+               R.string.no, Toast.LENGTH_SHORT).show()
+        }
+
+        builder.setNeutralButton("Maybe") { dialog, which ->
+            Toast.makeText(applicationContext,
+                "Maybe", Toast.LENGTH_SHORT).show()
+        }
+        builder.show()
+    }
+
 }
 
 fun View.toggleVisibility() {
